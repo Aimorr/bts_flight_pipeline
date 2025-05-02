@@ -65,12 +65,13 @@ bts_flight_pipeline/
    pip install -r requirements.txt
 
 
-2. Run notebooks in order
+2. **Run notebooks in order:**
 
-notebooks/1_download.ipynb         #Scrape BTS delay data using Selenium
-notebooks/2_unzip_clean.ipynb      #Unzip, clean, and transform raw data
-notebooks/3_upload_mongodb.ipynb   #Upload cleaned data to MongoDB Atlas
-                                   #Edit the MongoDB URI in the notebook if needed
-notebooks/4_visualize.ipynb        #Pull from MongoDB and generate visuals
+   - `notebooks/1_download.ipynb` — *Scrape BTS delay data using Selenium*
+   - `notebooks/2_unzip_clean.ipynb` — *Unzip, clean, and transform raw data*
+   - `notebooks/3_upload_mongodb.ipynb` — *Upload cleaned data to MongoDB Atlas*  
+     ⚠️ *Edit the MongoDB URI in the notebook if needed*
+   - `notebooks/4_visualize.ipynb` — *Pull from MongoDB and generate visuals*
+
 
    
